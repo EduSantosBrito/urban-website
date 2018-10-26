@@ -1,0 +1,20 @@
+.button-outline {
+  text-decoration: none;
+  display: inline-block;
+  color: #a942dd;
+  border-color: #a942dd;
+  background-color: transparent;
+  border-width: 2px;
+  border-radius: 24px;
+  border-style: solid;
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  padding: 10px 24px;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out,
+    box-shadow 0.2s ease-in-out, border-color 0.2s ease-in-out;
+}
+.button-outline:hover {
+  border-color: #a942dd;
+  background-color: #a942dd;
+  color: #fff;
+}

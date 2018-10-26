@@ -1,0 +1,16 @@
+.header-content {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: auto;
+  grid-template-areas: 'call-to-action image-bg';
+}
+.header-content > .call-to-action {
+  grid-area: call-to-action;
+}
+
+.header-content > .image-bg {
+  grid-area: image-bg;
+  display: flex;
+  justify-self: center;
+  width: 35vw;
+}
