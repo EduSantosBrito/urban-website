@@ -9,7 +9,7 @@ export default class HeaderContent extends Component {
         <CallToAction />
         <img
           src={require('./header.svg')}
-          className="image-bg"
+          className="imagebackground"
           alt="Two guys, with parts of a browser, constructing it."
         />
       </div>
